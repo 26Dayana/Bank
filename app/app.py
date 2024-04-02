@@ -221,9 +221,9 @@ predict_button = st.button('Predict')
 
 if predict_button:
     if(prediction == 1):
-        st.success('This customer segment will Deposit')
+        st.success('Eligble for loan')
     else:
-        st.success('This customer segment will NOT Deposit')    
+        st.success('Not Eligible for Loan')    
 
 st.write('\n')
 about = st.expander('More about app')
