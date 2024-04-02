@@ -10,7 +10,7 @@ st.title('Deposit Prediction for Bank Marketing Campaign')
 
 # Sidebar for EDA and Dataset
 st.sidebar.write("""
-    [Exploratory Data Analysis](https://github.com/Varshitha-Neelapu/Bank-Marketing/edit/main/Bank_Marketing_with_ML.ipynb)
+    [Exploratory Data Analysis](https://github.com/26Dayana/Bankmarket_pyspark)
 """)
 st.sidebar.write("""
     [Dataset](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip)
