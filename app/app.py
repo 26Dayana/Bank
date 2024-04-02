@@ -162,21 +162,21 @@ st.write("Duration : ", selected_duration)
 st.subheader('Number of Contacts Peroformed in this Campaign')
 campaign_range = list(range(df['campaign'].min(), df['campaign'].max()))
 selected_campaign = st.selectbox('',(campaign_range), index = 0)
-st.write('You selected : ', selected_campaign)
+st.write('Selected : ', selected_campaign)
 
 
 # selecting pdays
 st.subheader('Number of Days Before the Customer was Contacted')
 pdays_range = list(range(df['pdays'].min(), df['pdays'].max()))
 selected_pdays = st.selectbox('',(pdays_range), index = 0)
-st.write('You selected : ', selected_pdays)
+st.write('Selected : ', selected_pdays)
 
 
 # selecting previous
 st.subheader('Number of Contacts Performed Before this Campaign')
 previous_range = list(range(df['previous'].min(), df['previous'].max()))
 selected_previous = st.selectbox('',(previous_range), index = 0)
-st.write('You selected : ', selected_previous)
+st.write('Selected : ', selected_previous)
 
 
 # selecting poutcome
