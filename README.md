@@ -56,7 +56,7 @@ The main project scripts are in the **"src"** directory. Exceptionally, **"app.p
 
 * **split_data.py:** The cleaned dataset is split using stratified sampling. This ensures the fair splitting. The train and test sets are obtained after dataset splitting. Labels are separated from train and test sets and saved as **"train_labels.csv"** and **"test_labels.csv"**. Train data and test data are respectively saved as **"train_set.csv"** and **"test_set.csv"**.
 
-* **model_data.py:** Various data science models are trained on train set. Accuracy of all the models is verified using test set. Henceforth, the best model is selected. The feature selection of the best model is optimized to increase the accuracy to **87.1 %** (approx). This model is saved as **"model.pkl"**. 
+* **model_data.py:** Various data science models are trained on train set. Accuracy of all the models is verified using test set. Henceforth, the best model is selected. The feature selection of the best model is optimized to increase the accuracy to **91.3 %** (approx). This model is saved as **"model.pkl"**. 
 
 * **app.py:** The script develops a Streamlit app; that accepts 16 user inputs. These inputs are transformed and fed to **model.pkl**. The model's prediction is displayed in the application. 
  
@@ -112,7 +112,7 @@ The main project scripts are in the **"src"** directory. Exceptionally, **"app.p
 |  ├── cm_gbc.png                    # Confusion matrix of GradientBoostClassifier
 |  ├── cm_lgbm.png                   # Confusion matrix of LightGBMClassifier
 |  ├── cm_rfc.png                    # Confusion matrix of RandomForestClassifier
-|  ├── cm_xgb.png                    # Confusion matrix of XGBClassifier  
+|  ├── cm_xgb.png                    # Confusion matrix of GradientBoostClassifier  
 |  ├── cm_cbc.png                    # Confusion matrix of CatBoostClassifier
 |  ├── cm_optimized_cbc.png          # Confusion matrix of optimized CatBoostClassifier
 ├── requirements.txt                 # Required libraries
