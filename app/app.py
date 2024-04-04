@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import pickle as pkl
 import os
-
+def main():
 # URL of the background image
     background_image_url = 'https://wallpapers.com/images/featured/plain-black-background-02fh7564l8qq4m6d.jpg'
     
