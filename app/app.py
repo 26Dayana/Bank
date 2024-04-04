@@ -2,24 +2,7 @@ import pandas as pd
 import streamlit as st
 import pickle as pkl
 import os
-def main():
-# URL of the background image
-    background_image_url = 'https://wallpapers.com/images/featured/plain-black-background-02fh7564l8qq4m6d.jpg'
-    
-    # CSS for setting the background image
-    # Here we're using a combination of CSS to set the image as the background
-    # Adjust the background size, position, etc. based on your preference
-    st.markdown(
-        f"""
-        <style>
-        .reportview-container {{
-            background: url("{background_image_url}") no-repeat center center fixed;
-            background-size: cover;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+
 df = pd.read_csv("data/bank.csv")
 
 st.title('Deposit Prediction for Bank Marketing Campaign')
