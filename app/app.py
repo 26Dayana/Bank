@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import pickle as pkl
 import os
-background_image_url = 'https://wallpapers.com/images/featured/plain-black-background-02fh7564l8qq4m6d.jpg'
+
 df = pd.read_csv("data/bank.csv")
 
 st.title('Deposit Prediction for Bank Marketing Campaign')
